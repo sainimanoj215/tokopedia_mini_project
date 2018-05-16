@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.7.2)
+  - IQKeyboardManagerSwift (5.0.0)
+  - RangeSeekSlider (1.7.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - IQKeyboardManagerSwift (= 5.0.0)
+  - RangeSeekSlider
+  - SDWebImage (~> 4.0)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
+  RangeSeekSlider: 0386c5a9aa5ebcb2fa5238e8a627280cf46c7c0a
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: f63dbf3609540654ce35714568fb349b2b0062b6
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D782B13976211833EBAA4C /* Pods_Tokopedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247B7665A54F6FE9F932052F /* Pods_Tokopedia.framework */; };
+		17B357A937B9249C84560D27 /* Pods_TokopediaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C74E81CD92E8A763C11F2E /* Pods_TokopediaTests.framework */; };
+		2470AD4E20ABF0DB00AA3614 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470AD4D20ABF0DB00AA3614 /* Product.swift */; };
+		2470AD5120ABF0F800AA3614 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470AD5020ABF0F800AA3614 /* Category.swift */; };
+		2470AD5420ABF19500AA3614 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470AD5320ABF19500AA3614 /* Shop.swift */; };
+		2470AD5720ABF53000AA3614 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470AD5620ABF53000AA3614 /* Badges.swift */; };
+		2470AD5920AC05C700AA3614 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470AD5820AC05C700AA3614 /* CommonClass.swift */; };
+		2470AD5D20AC07E000AA3614 /* ShopTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470AD5B20AC07E000AA3614 /* ShopTypeCollectionViewCell.swift */; };
+		2470AD5E20AC07E000AA3614 /* ShopTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2470AD5C20AC07E000AA3614 /* ShopTypeCollectionViewCell.xib */; };
+		24F364A520AA9DE20098CEDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364A420AA9DE20098CEDD /* AppDelegate.swift */; };
+		24F364AA20AA9DE20098CEDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F364A820AA9DE20098CEDD /* Main.storyboard */; };
+		24F364AD20AA9DE20098CEDD /* Tokopedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24F364AB20AA9DE20098CEDD /* Tokopedia.xcdatamodeld */; };
+		24F364AF20AA9DF60098CEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F364AE20AA9DF60098CEDD /* Assets.xcassets */; };
+		24F364B220AA9DF60098CEDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F364B020AA9DF60098CEDD /* LaunchScreen.storyboard */; };
+		24F364BD20AA9DF70098CEDD /* TokopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364BC20AA9DF70098CEDD /* TokopediaTests.swift */; };
+		24F364C820AA9DF70098CEDD /* TokopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364C720AA9DF70098CEDD /* TokopediaUITests.swift */; };
+		24F364D920AA9EEF0098CEDD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364D820AA9EEF0098CEDD /* BaseViewController.swift */; };
+		24F364DB20AA9EFE0098CEDD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364DA20AA9EFE0098CEDD /* SearchViewController.swift */; };
+		24F364E220AAA03B0098CEDD /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364E020AAA03B0098CEDD /* ProductCollectionViewCell.swift */; };
+		24F364E320AAA03B0098CEDD /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F364E120AAA03B0098CEDD /* ProductCollectionViewCell.xib */; };
+		24F364E620AAA4C90098CEDD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364E520AAA4C90098CEDD /* Constants.swift */; };
+		24F364EA20AAA7130098CEDD /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364E820AAA7130098CEDD /* APIConstant.swift */; };
+		24F364EB20AAA7130098CEDD /* NetworkCommunicationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364E920AAA7130098CEDD /* NetworkCommunicationLayer.swift */; };
+		24F364EE20AAC4A20098CEDD /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364ED20AAC4A20098CEDD /* FilterViewController.swift */; };
+		24F364F120AAE39D0098CEDD /* ShoptypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364F020AAE39D0098CEDD /* ShoptypesViewController.swift */; };
+		24F364F620AAE7C60098CEDD /* ShopTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F364F420AAE7C60098CEDD /* ShopTypeTableViewCell.swift */; };
+		24F364F720AAE7C60098CEDD /* ShopTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F364F520AAE7C60098CEDD /* ShopTypeTableViewCell.xib */; };
+		3085FA2E821C9A2EBBDAB65D /* Pods_TokopediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8AAB6610392242C8C79C00 /* Pods_TokopediaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24F364B920AA9DF70098CEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24F3649920AA9DE20098CEDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24F364A020AA9DE20098CEDD;
+			remoteInfo = Tokopedia;
+		};
+		24F364C420AA9DF70098CEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24F3649920AA9DE20098CEDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24F364A020AA9DE20098CEDD;
+			remoteInfo = Tokopedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5D4C6DC26007049EF290A5 /* Pods-TokopediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokopediaTests/Pods-TokopediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2470AD4D20ABF0DB00AA3614 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2470AD5020ABF0F800AA3614 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2470AD5320ABF19500AA3614 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		2470AD5620ABF53000AA3614 /* Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
+		2470AD5820AC05C700AA3614 /* CommonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonClass.swift; sourceTree = "<group>"; };
+		2470AD5B20AC07E000AA3614 /* ShopTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		2470AD5C20AC07E000AA3614 /* ShopTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopTypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		247B7665A54F6FE9F932052F /* Pods_Tokopedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tokopedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F364A120AA9DE20098CEDD /* Tokopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F364A420AA9DE20098CEDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24F364A920AA9DE20098CEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24F364AC20AA9DE20098CEDD /* Tokopedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tokopedia.xcdatamodel; sourceTree = "<group>"; };
+		24F364AE20AA9DF60098CEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24F364B120AA9DF60098CEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24F364B320AA9DF60098CEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F364B820AA9DF70098CEDD /* TokopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokopediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F364BC20AA9DF70098CEDD /* TokopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokopediaTests.swift; sourceTree = "<group>"; };
+		24F364BE20AA9DF70098CEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F364C320AA9DF70098CEDD /* TokopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F364C720AA9DF70098CEDD /* TokopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokopediaUITests.swift; sourceTree = "<group>"; };
+		24F364C920AA9DF70098CEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F364D820AA9EEF0098CEDD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		24F364DA20AA9EFE0098CEDD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		24F364E020AAA03B0098CEDD /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		24F364E120AAA03B0098CEDD /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		24F364E520AAA4C90098CEDD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24F364E820AAA7130098CEDD /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		24F364E920AAA7130098CEDD /* NetworkCommunicationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCommunicationLayer.swift; sourceTree = "<group>"; };
+		24F364ED20AAC4A20098CEDD /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		24F364F020AAE39D0098CEDD /* ShoptypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoptypesViewController.swift; sourceTree = "<group>"; };
+		24F364F420AAE7C60098CEDD /* ShopTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTypeTableViewCell.swift; sourceTree = "<group>"; };
+		24F364F520AAE7C60098CEDD /* ShopTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopTypeTableViewCell.xib; sourceTree = "<group>"; };
+		2B35111EEB5B935F62E24C58 /* Pods-TokopediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokopediaUITests/Pods-TokopediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B60983CF218CFEE786CF55A /* Pods-Tokopedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tokopedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tokopedia/Pods-Tokopedia.debug.xcconfig"; sourceTree = "<group>"; };
+		6B8AAB6610392242C8C79C00 /* Pods_TokopediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokopediaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D6542A7A5B35F11D1D3A62 /* Pods-Tokopedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tokopedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tokopedia/Pods-Tokopedia.release.xcconfig"; sourceTree = "<group>"; };
+		A45F33F072EDE712E3F01FC3 /* Pods-TokopediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokopediaUITests/Pods-TokopediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0C74E81CD92E8A763C11F2E /* Pods_TokopediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokopediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A8788D7455B50DB536A11 /* Pods-TokopediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokopediaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokopediaTests/Pods-TokopediaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24F3649E20AA9DE20098CEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D782B13976211833EBAA4C /* Pods_Tokopedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F364B520AA9DF70098CEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B357A937B9249C84560D27 /* Pods_TokopediaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F364C020AA9DF70098CEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3085FA2E821C9A2EBBDAB65D /* Pods_TokopediaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2470AD4B20ABEFBC00AA3614 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2470AD4F20ABF0E400AA3614 /* Category */,
+				2470AD4C20ABEFC400AA3614 /* Product */,
+				2470AD5220ABF18B00AA3614 /* Shop */,
+				2470AD5520ABF52600AA3614 /* Badges */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2470AD4C20ABEFC400AA3614 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				2470AD4D20ABF0DB00AA3614 /* Product.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		2470AD4F20ABF0E400AA3614 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2470AD5020ABF0F800AA3614 /* Category.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2470AD5220ABF18B00AA3614 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				2470AD5320ABF19500AA3614 /* Shop.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		2470AD5520ABF52600AA3614 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				2470AD5620ABF53000AA3614 /* Badges.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		2470AD5A20AC07BD00AA3614 /* ShopTypeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2470AD5B20AC07E000AA3614 /* ShopTypeCollectionViewCell.swift */,
+				2470AD5C20AC07E000AA3614 /* ShopTypeCollectionViewCell.xib */,
+			);
+			path = ShopTypeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		24F3649820AA9DE20098CEDD = {
+			isa = PBXGroup;
+			children = (
+				24F364A320AA9DE20098CEDD /* Tokopedia */,
+				24F364BB20AA9DF70098CEDD /* TokopediaTests */,
+				24F364C620AA9DF70098CEDD /* TokopediaUITests */,
+				24F364A220AA9DE20098CEDD /* Products */,
+				E6AA29E24C5D5A2E311E73D5 /* Pods */,
+				42AF8CF12FA31FF6706D87FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24F364A220AA9DE20098CEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F364A120AA9DE20098CEDD /* Tokopedia.app */,
+				24F364B820AA9DF70098CEDD /* TokopediaTests.xctest */,
+				24F364C320AA9DF70098CEDD /* TokopediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24F364A320AA9DE20098CEDD /* Tokopedia */ = {
+			isa = PBXGroup;
+			children = (
+				2470AD4B20ABEFBC00AA3614 /* Model */,
+				24F364E720AAA7130098CEDD /* Services */,
+				24F364E420AAA4B50098CEDD /* Utils */,
+				24F364DC20AA9FF40098CEDD /* GUI */,
+				24F364A420AA9DE20098CEDD /* AppDelegate.swift */,
+				24F364A820AA9DE20098CEDD /* Main.storyboard */,
+				24F364AE20AA9DF60098CEDD /* Assets.xcassets */,
+				24F364B020AA9DF60098CEDD /* LaunchScreen.storyboard */,
+				24F364B320AA9DF60098CEDD /* Info.plist */,
+				24F364AB20AA9DE20098CEDD /* Tokopedia.xcdatamodeld */,
+			);
+			path = Tokopedia;
+			sourceTree = "<group>";
+		};
+		24F364BB20AA9DF70098CEDD /* TokopediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				24F364BC20AA9DF70098CEDD /* TokopediaTests.swift */,
+				24F364BE20AA9DF70098CEDD /* Info.plist */,
+			);
+			path = TokopediaTests;
+			sourceTree = "<group>";
+		};
+		24F364C620AA9DF70098CEDD /* TokopediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24F364C720AA9DF70098CEDD /* TokopediaUITests.swift */,
+				24F364C920AA9DF70098CEDD /* Info.plist */,
+			);
+			path = TokopediaUITests;
+			sourceTree = "<group>";
+		};
+		24F364D520AA9E760098CEDD /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				24F364DA20AA9EFE0098CEDD /* SearchViewController.swift */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		24F364D620AA9ED30098CEDD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				24F364EF20AAE3840098CEDD /* ShopTypesVC */,
+				24F364EC20AAC47D0098CEDD /* FilterVC */,
+				24F364D720AA9EDF0098CEDD /* BaseVC */,
+				24F364D520AA9E760098CEDD /* SearchVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		24F364D720AA9EDF0098CEDD /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				24F364D820AA9EEF0098CEDD /* BaseViewController.swift */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		24F364DC20AA9FF40098CEDD /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				24F364DD20AA9FFC0098CEDD /* Views */,
+				24F364D620AA9ED30098CEDD /* ViewControllers */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		24F364DD20AA9FFC0098CEDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24F364F220AAE7970098CEDD /* UITableViewCells */,
+				24F364DE20AAA0020098CEDD /* UICollectionViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24F364DE20AAA0020098CEDD /* UICollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2470AD5A20AC07BD00AA3614 /* ShopTypeCollectionViewCell */,
+				24F364DF20AAA00F0098CEDD /* ProductCollectionViewCell */,
+			);
+			path = UICollectionViewCells;
+			sourceTree = "<group>";
+		};
+		24F364DF20AAA00F0098CEDD /* ProductCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				24F364E020AAA03B0098CEDD /* ProductCollectionViewCell.swift */,
+				24F364E120AAA03B0098CEDD /* ProductCollectionViewCell.xib */,
+			);
+			path = ProductCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		24F364E420AAA4B50098CEDD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				24F364E520AAA4C90098CEDD /* Constants.swift */,
+				2470AD5820AC05C700AA3614 /* CommonClass.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		24F364E720AAA7130098CEDD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				24F364E820AAA7130098CEDD /* APIConstant.swift */,
+				24F364E920AAA7130098CEDD /* NetworkCommunicationLayer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		24F364EC20AAC47D0098CEDD /* FilterVC */ = {
+			isa = PBXGroup;
+			children = (
+				24F364ED20AAC4A20098CEDD /* FilterViewController.swift */,
+			);
+			path = FilterVC;
+			sourceTree = "<group>";
+		};
+		24F364EF20AAE3840098CEDD /* ShopTypesVC */ = {
+			isa = PBXGroup;
+			children = (
+				24F364F020AAE39D0098CEDD /* ShoptypesViewController.swift */,
+			);
+			path = ShopTypesVC;
+			sourceTree = "<group>";
+		};
+		24F364F220AAE7970098CEDD /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				24F364F320AAE7A30098CEDD /* ShopTypeTableViewCell */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		24F364F320AAE7A30098CEDD /* ShopTypeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				24F364F420AAE7C60098CEDD /* ShopTypeTableViewCell.swift */,
+				24F364F520AAE7C60098CEDD /* ShopTypeTableViewCell.xib */,
+			);
+			path = ShopTypeTableViewCell;
+			sourceTree = "<group>";
+		};
+		42AF8CF12FA31FF6706D87FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				247B7665A54F6FE9F932052F /* Pods_Tokopedia.framework */,
+				D0C74E81CD92E8A763C11F2E /* Pods_TokopediaTests.framework */,
+				6B8AAB6610392242C8C79C00 /* Pods_TokopediaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6AA29E24C5D5A2E311E73D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B60983CF218CFEE786CF55A /* Pods-Tokopedia.debug.xcconfig */,
+				82D6542A7A5B35F11D1D3A62 /* Pods-Tokopedia.release.xcconfig */,
+				0D5D4C6DC26007049EF290A5 /* Pods-TokopediaTests.debug.xcconfig */,
+				D28A8788D7455B50DB536A11 /* Pods-TokopediaTests.release.xcconfig */,
+				2B35111EEB5B935F62E24C58 /* Pods-TokopediaUITests.debug.xcconfig */,
+				A45F33F072EDE712E3F01FC3 /* Pods-TokopediaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24F364A020AA9DE20098CEDD /* Tokopedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F364CC20AA9DF70098CEDD /* Build configuration list for PBXNativeTarget "Tokopedia" */;
+			buildPhases = (
+				3470074BE6CCD38932A1FFBA /* [CP] Check Pods Manifest.lock */,
+				24F3649D20AA9DE20098CEDD /* Sources */,
+				24F3649E20AA9DE20098CEDD /* Frameworks */,
+				24F3649F20AA9DE20098CEDD /* Resources */,
+				72A28603A40C813BF901333B /* [CP] Embed Pods Frameworks */,
+				491A87D69D245188E971E667 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tokopedia;
+			productName = Tokopedia;
+			productReference = 24F364A120AA9DE20098CEDD /* Tokopedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24F364B720AA9DF70098CEDD /* TokopediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F364CF20AA9DF70098CEDD /* Build configuration list for PBXNativeTarget "TokopediaTests" */;
+			buildPhases = (
+				FC31C016C054C3EE96AA9F6D /* [CP] Check Pods Manifest.lock */,
+				24F364B420AA9DF70098CEDD /* Sources */,
+				24F364B520AA9DF70098CEDD /* Frameworks */,
+				24F364B620AA9DF70098CEDD /* Resources */,
+				2E8AED6491811C1EDCE11EEE /* [CP] Embed Pods Frameworks */,
+				65A2C325722C432A8135E273 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24F364BA20AA9DF70098CEDD /* PBXTargetDependency */,
+			);
+			name = TokopediaTests;
+			productName = TokopediaTests;
+			productReference = 24F364B820AA9DF70098CEDD /* TokopediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24F364C220AA9DF70098CEDD /* TokopediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F364D220AA9DF70098CEDD /* Build configuration list for PBXNativeTarget "TokopediaUITests" */;
+			buildPhases = (
+				419D3F69B778C0C387085B9C /* [CP] Check Pods Manifest.lock */,
+				24F364BF20AA9DF70098CEDD /* Sources */,
+				24F364C020AA9DF70098CEDD /* Frameworks */,
+				24F364C120AA9DF70098CEDD /* Resources */,
+				448E22C4010A6BD473DA9B19 /* [CP] Embed Pods Frameworks */,
+				E84899F84BABD6E2986EC791 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24F364C520AA9DF70098CEDD /* PBXTargetDependency */,
+			);
+			name = TokopediaUITests;
+			productName = TokopediaUITests;
+			productReference = 24F364C320AA9DF70098CEDD /* TokopediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24F3649920AA9DE20098CEDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MDS;
+				TargetAttributes = {
+					24F364A020AA9DE20098CEDD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					24F364B720AA9DF70098CEDD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 24F364A020AA9DE20098CEDD;
+					};
+					24F364C220AA9DF70098CEDD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 24F364A020AA9DE20098CEDD;
+					};
+				};
+			};
+			buildConfigurationList = 24F3649C20AA9DE20098CEDD /* Build configuration list for PBXProject "Tokopedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24F3649820AA9DE20098CEDD;
+			productRefGroup = 24F364A220AA9DE20098CEDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24F364A020AA9DE20098CEDD /* Tokopedia */,
+				24F364B720AA9DF70098CEDD /* TokopediaTests */,
+				24F364C220AA9DF70098CEDD /* TokopediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F3649F20AA9DE20098CEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F364B220AA9DF60098CEDD /* LaunchScreen.storyboard in Resources */,
+				24F364AF20AA9DF60098CEDD /* Assets.xcassets in Resources */,
+				24F364E320AAA03B0098CEDD /* ProductCollectionViewCell.xib in Resources */,
+				24F364F720AAE7C60098CEDD /* ShopTypeTableViewCell.xib in Resources */,
+				2470AD5E20AC07E000AA3614 /* ShopTypeCollectionViewCell.xib in Resources */,
+				24F364AA20AA9DE20098CEDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F364B620AA9DF70098CEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F364C120AA9DF70098CEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E8AED6491811C1EDCE11EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokopediaTests/Pods-TokopediaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3470074BE6CCD38932A1FFBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tokopedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		419D3F69B778C0C387085B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokopediaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		448E22C4010A6BD473DA9B19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokopediaUITests/Pods-TokopediaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		491A87D69D245188E971E667 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tokopedia/Pods-Tokopedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A2C325722C432A8135E273 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokopediaTests/Pods-TokopediaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A28603A40C813BF901333B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tokopedia/Pods-Tokopedia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RangeSeekSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tokopedia/Pods-Tokopedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84899F84BABD6E2986EC791 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokopediaUITests/Pods-TokopediaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC31C016C054C3EE96AA9F6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokopediaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F3649D20AA9DE20098CEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2470AD5720ABF53000AA3614 /* Badges.swift in Sources */,
+				24F364AD20AA9DE20098CEDD /* Tokopedia.xcdatamodeld in Sources */,
+				24F364A520AA9DE20098CEDD /* AppDelegate.swift in Sources */,
+				24F364F620AAE7C60098CEDD /* ShopTypeTableViewCell.swift in Sources */,
+				24F364F120AAE39D0098CEDD /* ShoptypesViewController.swift in Sources */,
+				24F364E220AAA03B0098CEDD /* ProductCollectionViewCell.swift in Sources */,
+				2470AD4E20ABF0DB00AA3614 /* Product.swift in Sources */,
+				2470AD5D20AC07E000AA3614 /* ShopTypeCollectionViewCell.swift in Sources */,
+				24F364EE20AAC4A20098CEDD /* FilterViewController.swift in Sources */,
+				24F364DB20AA9EFE0098CEDD /* SearchViewController.swift in Sources */,
+				24F364D920AA9EEF0098CEDD /* BaseViewController.swift in Sources */,
+				2470AD5120ABF0F800AA3614 /* Category.swift in Sources */,
+				2470AD5920AC05C700AA3614 /* CommonClass.swift in Sources */,
+				24F364EA20AAA7130098CEDD /* APIConstant.swift in Sources */,
+				2470AD5420ABF19500AA3614 /* Shop.swift in Sources */,
+				24F364E620AAA4C90098CEDD /* Constants.swift in Sources */,
+				24F364EB20AAA7130098CEDD /* NetworkCommunicationLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F364B420AA9DF70098CEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F364BD20AA9DF70098CEDD /* TokopediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F364BF20AA9DF70098CEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F364C820AA9DF70098CEDD /* TokopediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24F364BA20AA9DF70098CEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24F364A020AA9DE20098CEDD /* Tokopedia */;
+			targetProxy = 24F364B920AA9DF70098CEDD /* PBXContainerItemProxy */;
+		};
+		24F364C520AA9DF70098CEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24F364A020AA9DE20098CEDD /* Tokopedia */;
+			targetProxy = 24F364C420AA9DF70098CEDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24F364A820AA9DE20098CEDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F364A920AA9DE20098CEDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24F364B020AA9DF60098CEDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F364B120AA9DF60098CEDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24F364CA20AA9DF70098CEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24F364CB20AA9DF70098CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24F364CD20AA9DF70098CEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B60983CF218CFEE786CF55A /* Pods-Tokopedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5624J3FRB3;
+				INFOPLIST_FILE = Tokopedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mds.Tokopedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "878ce036-744b-4667-976f-7e28258fe808";
+				PROVISIONING_PROFILE_SPECIFIER = mds_star1;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24F364CE20AA9DF70098CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D6542A7A5B35F11D1D3A62 /* Pods-Tokopedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5624J3FRB3;
+				INFOPLIST_FILE = Tokopedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mds.Tokopedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "878ce036-744b-4667-976f-7e28258fe808";
+				PROVISIONING_PROFILE_SPECIFIER = mds_star1;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24F364D020AA9DF70098CEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5D4C6DC26007049EF290A5 /* Pods-TokopediaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3ZHH93QE2;
+				INFOPLIST_FILE = TokopediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mds.TokopediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokopedia.app/Tokopedia";
+			};
+			name = Debug;
+		};
+		24F364D120AA9DF70098CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28A8788D7455B50DB536A11 /* Pods-TokopediaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3ZHH93QE2;
+				INFOPLIST_FILE = TokopediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mds.TokopediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokopedia.app/Tokopedia";
+			};
+			name = Release;
+		};
+		24F364D320AA9DF70098CEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B35111EEB5B935F62E24C58 /* Pods-TokopediaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3ZHH93QE2;
+				INFOPLIST_FILE = TokopediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mds.TokopediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tokopedia;
+			};
+			name = Debug;
+		};
+		24F364D420AA9DF70098CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45F33F072EDE712E3F01FC3 /* Pods-TokopediaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3ZHH93QE2;
+				INFOPLIST_FILE = TokopediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mds.TokopediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tokopedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F3649C20AA9DE20098CEDD /* Build configuration list for PBXProject "Tokopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F364CA20AA9DF70098CEDD /* Debug */,
+				24F364CB20AA9DF70098CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F364CC20AA9DF70098CEDD /* Build configuration list for PBXNativeTarget "Tokopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F364CD20AA9DF70098CEDD /* Debug */,
+				24F364CE20AA9DF70098CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F364CF20AA9DF70098CEDD /* Build configuration list for PBXNativeTarget "TokopediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F364D020AA9DF70098CEDD /* Debug */,
+				24F364D120AA9DF70098CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F364D220AA9DF70098CEDD /* Build configuration list for PBXNativeTarget "TokopediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F364D320AA9DF70098CEDD /* Debug */,
+				24F364D420AA9DF70098CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24F364AB20AA9DE20098CEDD /* Tokopedia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24F364AC20AA9DE20098CEDD /* Tokopedia.xcdatamodel */,
+			);
+			currentVersion = 24F364AC20AA9DE20098CEDD /* Tokopedia.xcdatamodel */;
+			path = Tokopedia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24F3649920AA9DE20098CEDD /* Project object */;
+}
